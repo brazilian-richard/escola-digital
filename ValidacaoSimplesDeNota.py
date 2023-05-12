@@ -5,12 +5,12 @@ a = float(input("Qual é a 1a nota do aluno?"))
 b = float(input("Qual é a 2a nota do aluno?"))
 presenca = int(input("Qual é a presença do aluno? (0-100)"))
 
-csum = a + b
+csum = (a + b) / 2
 
 # print("A:", a, "B: ", b, "Soma de (A+B)/2: :", csum/2)
 
 if ((presenca >= 75) or (presenca >= 70)):
-    if((csum / 2) == 10):
+    if((csum) == 10):
         print("Aluno aprovado com louvor.")
     elif (csum >= 7):
         print("Aluno aprovado.")
